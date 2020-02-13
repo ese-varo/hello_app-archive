@@ -20,3 +20,7 @@ group :development do
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
 end
+
+group :production do
+  gem 'pg', '0.18.4'
+end
